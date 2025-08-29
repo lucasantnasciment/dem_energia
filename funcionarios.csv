@@ -1,0 +1,6 @@
+Nome,Idade,Salário,Cargo,Data_Contratacao
+Ana,23,3500,Analista,2020-05-10
+Bruno,35,NaN,Engenheiro,2019-03-22
+Carlos,17,4200,Estagiário,wrong_date
+Diana,42,6000,Gerente,2018-07-15
+Ana,23,3500,Analista,2020-05-10
