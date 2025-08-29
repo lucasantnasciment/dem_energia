@@ -11,7 +11,7 @@ dia_semana = np.random.randint(0, 7, n)
 
 demanda = (50 
            + 2 * temperatura 
-           + 5 * (hora_dia.between(9, 18).astype(int)) 
+           + 5 * ((hora_dia >= 9) & (hora_dia <= 18)).astype(int) 
            + 3 * (dia_semana < 5).astype(int)
            + np.random.normal(0, 5, n))
 
